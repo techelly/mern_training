@@ -1,0 +1,41 @@
+<!--
+    Understand the role of forms in web pages
+    Understand various HTML elements used in forms
+        Single line text field
+        Text area
+        Check box
+        Radio buttons
+        Password fields
+        Pull-down menus
+        File Selector dialog box
+
+        HTML forms are used to accept user inputs and then submit data for processing.
+        A form is an area in a page which contains form elements.
+        Type of elements which can be included in a form are 
+        - Label
+        - Single line text field
+        -Text area
+        -Check box
+        -Radio buttons
+        -Password fields
+        -Pull-down menus
+        -File Selector dialog box
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Example</title>
+    </head>
+<body>
+    <!--<form name ="" method="post" action="" enctype="" autocomplete="on/off" target="" novalidate="">-->
+    <form>
+        Username: <input name="username" id="user1" value="" size="15"  type="text"></input><br /><br />
+        Password: <input name="password" id="pass1" value="" size="15"  type="password"></input><br />
+        <!-- type="button"  Button element -- A clickable button that activates a Javascript when it is clicked-->
+        <input name="submit" id="submit" value="Submit" size="15"  type="button"></input>
+        <input name="cancel" id="cancel" value="Cancel" size="15"  type="reset"></input><br/><br/>
+        <!-- Defines a button for submitting a form-->
+        <input name="submit" id="submit1" value="Submit" size="15"  type="submit"></input>
+    </form>
+</body>
+</html>
