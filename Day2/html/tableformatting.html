@@ -1,0 +1,34 @@
+<!--
+    Cell Spanning
+    Table cells can span across more than one column or row
+    Types of cell spanning
+        - Row spanning
+        -Column spanning
+-->
+<!DOCTYPE html>
+<html>
+    <title>Table Formatting</title>
+    <style>
+        table,th,td{
+            border:2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+    <body>
+        <table id="t1" name="table1">
+            <tr><th colspan="4" style="background-color: green;">Name</th><th>City</th><th>Age</th><th>Salary</th></tr>
+            <tr><td>Rakesh</td><td>Delhi</td><td>South Delhi</td><td>1555.50</td></tr>
+            <tr><td>Selvarani</td><td>Coimbtore</td></tr>
+        </table>
+
+        <table id="t2" name="table2">
+            <tr><th>Name</th>
+            <td>Arun</td></tr>
+            <tr><th rowspan="2" style="background-color: green;">Phone</th>
+                <td>9999111122</td></tr>
+                <tr>
+                <td>9999111123</td></tr>
+
+        </table>
+    </body>
+</html>

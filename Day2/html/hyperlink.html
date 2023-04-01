@@ -1,0 +1,40 @@
+<!--
+    Hyperlinks in HTML 
+    Links allow users to navigate and find information on the internet as easy as possible
+    HTML links are hyperlink
+    A hyperlink is a text or an image you can click on , and jump to another document
+    Tag to create a link is <a> which stands for anchor 
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hyperlink Example</title>
+    </head>
+    <body>
+        <a id ="address1"></a>
+        <a href="table.html">Click Here To Table Page</a>
+        <a href="http://www.google.com">Google</a>
+        <a href="mailto:prabhatc@gmail.com?subject=content&cc=karthik@gmail.com&bcc=abc@gmail.com">Contact Me</a>
+        <br/>
+        <p>My office location is ----</p>
+        <p>Google India Pvt Ltd, Rajiv Gandhi Infotech Park, Hinjewadi Phase III MIDC Pune 411057. India .... I am working in <a href="#address1">Google Office</a></p>
+
+        <!--
+            Providing Target for a HyperLink
+            Target attribute of the <a> tag specifies where to load the linked document
+                <a href="table.html" target="frame2">Table</a>
+                Target attribute takes following values:-
+                - name of the existing window/target
+                - _blank
+                - _self  --- Puts new document in the same window and frame as the current document
+                - _parent --- used when a frameset file is nested inside another one
+                - _top  --- loads linked document in the topmost frame. This means that the new page fills the entire window
+        -->
+        <a href="table.html" target="frame2">Table</a>
+        <a href="table.html" target="_self">Table Self</a>
+        <a href="table.html" target="_parent">Table Parent</a>
+        <a href="table.html" target="_top">Table Top</a>
+
+    </body>
+</html>

@@ -1,0 +1,84 @@
+<!--
+    List of items can be numbered or ordered is called numbered/ordered List
+    HTML tags can be used for creating ordered list are:
+    <ol> --- Attributes are start and type
+    <li>   -- It defines a list of item , Should be used as child tag of either <ol> or <ul> tag
+        <ol> --- Attributes are start and type
+            Type Attribute:-
+            It specifies the kind of marked to use in the list
+            Valid values for type attribute:
+             - A
+             - a
+             - I
+             - i
+             - 1 Standard numbers , default
+
+             Start Attribute
+             - Specifies the start value of an ordered lsit
+    -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List Example</title>
+    </head>
+    <body>
+        <!-- Example of numbered list-->
+        <h1> Example of numbered list</h1>
+        <li>INDIA</li>
+            <li>SRILANKA</li>
+            <li>AUSTRALIA</li>
+            <li>Pakistan</li>
+            <h2> My favorite cricket teams</h2>
+            <ol start="1" type="a">
+            <li>INDIA</li>
+            <li>SRILANKA</li>
+            <li>AUSTRALIA</li>
+        </ol> 
+        <h2> Yours favorite cricket teams</h2>
+            <ol start="1" type="i">
+            <li>INDIA</li>
+            <li>SRILANKA</li>
+            <li>AUSTRALIA</li>
+            <li>Pakistan</li>
+        </ol>  
+        <h2> Yours favorite cricket teams</h2>
+        <ol start="2" type="I">
+        <li>INDIA</li>
+        <li>SRILANKA</li>
+        <li>AUSTRALIA</li>
+        <li>Pakistan</li>
+    </ol>      
+    
+    <h1> Example of bulleted list</h1>
+    <h2> My favorite cricket teams</h2>
+    <ul style="list-style-type: disc;">
+        <li>INDIA</li>
+        <li>SRILANKA</li>
+        <li>AUSTRALIA</li>
+    </ul> 
+    <ul style="list-style-type: circle;">
+        <li>INDIA</li>
+        <li>SRILANKA</li>
+        <li>AUSTRALIA</li>
+    </ul> 
+    <ul style="list-style-type: square;">
+        <li>INDIA</li>
+        <li>SRILANKA</li>
+        <li>AUSTRALIA</li>
+    </ul>
+    <ul style="list-style-type: none;">
+        <li>INDIA</li>
+        <li>SRILANKA</li>
+        <li>AUSTRALIA</li>
+    </ul>
+
+    <ul>
+        <li>INDIA <img src="D:\mern_training\Day2\images\Flag_of_India.gif" width="20" height="20" /></li>
+        <li>SRILANKA <img src="D:\mern_training\Day2\images\Flag_of_India.gif" width="20" height="20" /></li>
+        <li>AUSTRALIA <img src="D:\mern_training\Day2\images\Flag_of_India.gif" width="20" height="20" /></li>
+    </ul>
+    <li>INDIA <img src="D:\mern_training\Day2\images\Flag_of_India.gif" width="20" height="20" /></li>
+        <li>SRILANKA <img src="D:\mern_training\Day2\images\Flag_of_India.gif" width="20" height="20" /></li>
+        <li>AUSTRALIA <img src="D:\mern_training\Day2\images\Flag_of_India.gif" width="20" height="20" /></li>
+    </body>
+</html>
