@@ -1,0 +1,21 @@
+<!--
+    HTML to define content of the web page
+    CSS to specify the layout of web pages
+    Javascript to program the behavior of web pages
+    
+    JS can change HTML content and JS HTML methods is getElementById()
+-->
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <br>
+        <br>
+        <button type="button" onclick="document.getElementById('demo').innerHTML='Hello JavaScript !'"> Click me!</button>
+
+        <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'"> Change Font</button>
+        <button type="button" onclick="document.getElementById('demo').style.display='none'"> Reset Page</button>
+        <button type="button" onclick="document.getElementById('demo').style.display='block'"> Show</button>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+<!--
+    The Document Object
+        When an HTML document is loaded into a web browser, it becomes a document object.
+        The document object is the root node of the HTML document.
+        The document object is a property of the window object.
+        The document object is accessed with :
+        window.document or just document
+
+
+     JavaScript can change HTML Content   
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            JavaScript Example
+        </title>
+    </head>
+    <body>
+        <p id="1" name="p1">How JS works ?</p>
+        <p id="3" name="p3">JS makes HTML page or web page content Dynamic</p>
+        <button id="2" name="b1">Click Me</button>
+        <input type="text" value="Just a text", name="jtext", id="jtext"/>
+        <br>
+        <br>
+        <p id="dateDemo"></p>
+        <p id="demo"></p>
+
+        <br>
+        <br>
+        <!-- innerHTML is HTML DOM Element property which returns the text content of the element
+            including all spacing and inner HTML tags
+        -->
+        <button type="button" onclick="document.getElementById('dateDemo').innerHTML=Date()"> Click me to display Date and Time</button>
+        <br>
+        <br>
+        <button type="button" onclick="document.getElementById('demo').innerHTML='I am <b>happy</b> today and I want water whose chemical formula is H<sub>2</sub>O'"> Click me to display the values</button>
+    </body>
+</html>
