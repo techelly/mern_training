@@ -141,3 +141,7 @@ console.log(car1 === car2); //false -- its refering to the different instance
 //!== strict inequality 
 // != inequality loosely 
 console.log(car1.name);
+
+/**
+ * 
+ */
